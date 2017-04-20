@@ -22,6 +22,7 @@ def CameraFunc():
     return CameraFunc()
     
 def CameraFuncNone():
+  camera.image_effect = "none"
   camera.start_preview()
   print('preview')
   sleep(3)
